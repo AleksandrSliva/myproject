@@ -1,0 +1,22 @@
+body{
+  background: url(background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-width: 290px;
+}
+
+.main_text a, .main_text a:hover, .main_text a:focus{
+  text-decoration: none;
+}
+
+.hidden_background{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1500;
+}
+
+.example{
+  background-color: black;
+  height: 100px;
+  width: 100px;
+}

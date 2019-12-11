@@ -1,0 +1,55 @@
+body{
+  background: url(background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.content_header {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3%;
+}
+
+.content_footer{
+    margin-left: 2%;
+}
+
+.content_image{
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1.25rem;
+}
+
+#description{
+  margin-left: 2%;
+  width: 60%;
+  margin-top: 2%;
+  font-family: "Times New Roman", serif;
+}
+
+#description .part_1{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#description .part_1 .part_1_1{
+  font-weight: 900;
+  width: 100px;
+}
+
+#description .part_1 .part_1_2{
+ margin-left: 10px;
+}
+
+.options{
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12.5px;
+  background-color: white;
+  color: black;
+  border: 1px;
+  border-style: solid;
+  border-color: gray;
+  text-decoration: none;
+  padding: 3px;
+}

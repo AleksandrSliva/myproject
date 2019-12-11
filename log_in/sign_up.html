@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Authorization</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style_sign_up.css" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="stylesheet" type="text/css" href="../bootstrap.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand text-light" href="../index.html"><img src="../icon.png" height="30" width="30">Games</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport" aria-control="navbarSupport" aria-expanded="false" aria-label="navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupport">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <div id="base">
+              <a class="nav-link text-light" href="../base_games/base_games.html">БАЗА ИГР</a>
+
+  <!--Высвечуеться когда наводишь на БАЗА ИГР -->
+              <div id="base_games" class="bg-dark text-light">
+                  <div class="row container">
+                    <div class="col-6">
+                      <h3>Жанры</h3>
+                      <div class="row container">
+                        <a href="#" class="base_games_1 text-light">Экшен</a>
+                        <a href="../shooter/shooter.html" class="base_games_1 text-light">Шутер</a>
+                        <a href="../role_playing/role_playing.html" class="base_games_1 text-light">Ролевые</a>
+                        <a href="../strategy/strategy.html" class="base_games_1 text-light">Стратегии</a>
+                        <a href="../adventure/adventure.html" class="base_games_1 text-light">Приключения</a>
+                      </div>
+                    </div>
+                    <div class="col-6 row image_main_list">
+
+                    </div>
+                  </div>
+                  <br>
+              </div>
+  <!--Конец блока-->
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../news/news.html">НОВОСТИ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="../new_games/new_games.html">НОВИНКИ</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-dark" type="submit">ПОИСК</button>
+        </form>
+      </div>
+    </nav>
+
+      <form class="form_avtorise bg-light">
+        <div class="container-fluied">
+          <div class="form_header container">
+            <h2>РЕГИСТРАЦИЯ</h2>
+          </div >
+          <div class="form_body container">
+            <div class="form-group">
+              <input type="text" class="form-control" name="login" id="login"  placeholder="Введите ваш login">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Введите email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" name="password" id="password" placeholder="Введите пароль">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" name="password2" id="repeat_password" placeholder="Повторите пароль">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="name" id="bane" placeholder="Введите ваше имя">
+            </div>
+          </div>
+          <div class="container form_footer">
+            <button type="submit" class="btn btn-primary cont" name="authorize" role="button">ПРОДОЛЖИТЬ</button>
+            <a href="log_in.html" class="btn btn-light " role="button">У МЕНЯ ЕСТЬ АККАУНТ</a>
+          </div>
+        </div>
+      </form>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="../menu.js"></script>
+</body>
+</html>

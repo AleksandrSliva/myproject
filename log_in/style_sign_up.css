@@ -1,0 +1,38 @@
+body{
+  background: url(../background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-width: 260px;
+}
+
+.form_avtorise{
+  width: 450px;
+  height: 100%;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form_header{
+  border-bottom: 1px solid silver;
+  margin-bottom: 1.25rem;
+  padding-top: .35rem;
+}
+
+.form_footer{
+  border-top: 1px solid silver;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+@media screen and (max-width: 450px) {
+  .form_avtorise{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  .cont{
+    margin-bottom: 2%;
+  }
+}

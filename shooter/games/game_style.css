@@ -1,0 +1,116 @@
+body{
+  min-width: 300px;
+}
+#content_game{
+  border-radius: 15px;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#carouselControls{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#main_image{
+  width: 200px;
+  height: 284px;
+  margin: 2%;
+}
+
+.about_game_header{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#description{
+  margin-left: 2%;
+  width: 60%;
+  margin-top: 2%;
+  font-family: "Times New Roman", serif;
+}
+
+#description .part_1{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#description .part_1:nth-child(2){
+  margin-top: 20px;
+}
+
+#description .part_1 .part_1_1{
+  font-weight: 900;
+  width: 100px;
+}
+
+#description .part_1 .part_1_2{
+ margin-left: 10px;
+}
+
+.options{
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12.5px;
+  background-color: white;
+  color: black;
+  border: 1px;
+  border-style: solid;
+  border-color: gray;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.options:focus, .options:hover{
+  text-decoration: none;
+}
+
+.base_games_2{
+  margin: 10px;
+}
+
+.game_video{
+    text-align: center;
+}
+
+.gameRequir ul li{
+  list-style: none;
+  font-family: "Times New Roman", serif;
+}
+
+.gameRequir .part_2{
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid silver;
+  width: 70%;
+}
+
+.gameRequir .part_2 .part_2_1{
+  width: 250px;
+  color: silver;
+}
+
+.gameRequir .min_requir, .gameRequir .recomend_requir{
+  margin-bottom: 3%;
+  margin-left: 3%;
+}
+
+.t2{
+  font-weight: 900;
+}
+
+#descript{
+  font-family: "Times New Roman", serif;
+  margin: 2%
+}
+
+@media screen and (max-width: 500px) {
+  #content_game{
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
